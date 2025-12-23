@@ -4,7 +4,7 @@
  * @return {function}
  */
 
-function makeInfinityAdder() {
+function makeAdder() {
   let sum = 0;
 
   return function summa(num) {
@@ -22,4 +22,4 @@ function makeInfinityAdder() {
   };
 }
 
-module.exports = makeInfinityAdder;
+module.exports = makeAdder;
